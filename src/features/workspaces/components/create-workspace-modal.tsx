@@ -42,7 +42,7 @@ export const CreateWorkspaceModal = () => {
 
     return (
         <Dialog open={open} onOpenChange={handleClose}>
-            <DialogTrigger>Open</DialogTrigger>
+            {/* <DialogTrigger>Open</DialogTrigger> */}
             <DialogContent>
                 <DialogHeader>
                     <DialogTitle>Add a Workspace</DialogTitle>
